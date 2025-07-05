@@ -28,6 +28,14 @@ function Footer() {
           );
         })}
       </nav>
+      
+      {/* SEO-friendly hidden content for search engines */}
+      <div className="sr-only">
+        <p>Gavin Adlan - Full-Stack Developer from Indonesia. Specializing in React, Next.js, TypeScript, and modern web technologies. Available for freelance projects and collaborations.</p>
+        <p>Contact: gavinadlanhid@gmail.com | LinkedIn: linkedin.com/in/gavinadlan | GitHub: github.com/gavinadlan</p>
+        <p>Skills: React, Next.js, TypeScript, JavaScript, Node.js, 3D animations, GSAP, Framer Motion, Spline</p>
+        <p>Projects: Travel Story, ArtsyMart, JakEstate, Todogul</p>
+      </div>
     </footer>
   );
 }

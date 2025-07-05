@@ -39,6 +39,7 @@ import { VscCode } from "react-icons/vsc";
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/react-splide/css";
 import { TbTerminal2 } from "react-icons/tb";
+import Head from "next/head";
 
 const CONTACT_LINKS = [
   {
@@ -234,6 +235,23 @@ function Page() {
   }, []);
   return (
     <div className="container mx-auto px-4 md:px-[50px] xl:px-[200px] text-zinc-300 pt-20 pb-20">
+      <Head>
+        <title>About Gavin Adlan - Full-Stack Developer from Indonesia</title>
+        <meta
+          name="description"
+          content="Learn more about Gavin Adlan, a passionate Full-Stack Developer and Creative Technologist from Indonesia. Specializing in interactive web experiences, 3D animations, and innovative projects using React, Next.js, and modern technologies."
+        />
+        <meta
+          name="keywords"
+          content="Gavin Adlan, Full-Stack Developer Indonesia, Web Developer Indonesia, React Developer, Next.js Developer, 3D Animations, Interactive Web Experiences, JavaScript, TypeScript, HTML, CSS, Node.js, Docker, NginX, Vue.js, Express.js, PostgreSQL, MongoDB, Tailwind CSS, Firebase, Git, GitHub, VS Code, VIM, Prettier, NPM, Yarn, Vercel, Kubuntu, Terminal, AWS"
+        />
+        <meta name="author" content="Gavin Adlan" />
+        <meta property="og:title" content="About Gavin Adlan - Full-Stack Developer from Indonesia" />
+        <meta property="og:description" content="Learn more about Gavin Adlan, a passionate Full-Stack Developer and Creative Technologist from Indonesia." />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://gavinadlan.my.id/about" />
+        <link rel="canonical" href="https://gavinadlan.my.id/about" />
+      </Head>
       <div className="flex flex-col lg:flex-row gap-5">
         <aside className="w-full md:basis-1/4">
           <div
@@ -294,10 +312,17 @@ function Page() {
               a drive to make a positive impact.
             </p>
             <p className="mb-10">
-              When I&apos;m not coding, you can find me [Your
-              Interests/Hobbies], exploring new technologies, or sipping coffee
-              while brainstorming my next project.
+              When I&apos;m not coding, you can find me exploring new technologies, experimenting with 3D animations, or sipping coffee
+              while brainstorming my next project. I'm passionate about creating innovative web experiences that combine cutting-edge technology with beautiful design.
             </p>
+            
+            {/* SEO-friendly hidden content for search engines */}
+            <div className="sr-only">
+              <h2>Gavin Adlan - Full-Stack Developer Skills</h2>
+              <p>Gavin Adlan is a skilled Full-Stack Developer with expertise in React, Next.js, TypeScript, JavaScript, Node.js, and modern web technologies. Based in Indonesia, Gavin specializes in creating interactive web experiences and 3D animations.</p>
+              <p>Technical skills include: JavaScript, TypeScript, HTML, CSS, Node.js, React.js, Docker, Nginx, Vue.js, Express.js, PostgreSQL, MongoDB, Tailwind CSS, Firebase, Git, GitHub, VS Code, VIM, Prettier, NPM, Yarn, Vercel, Linux, Kubuntu, Terminal, and AWS.</p>
+              <p>Gavin Adlan's projects include Travel Story, ArtsyMart, Todogul, and other innovative web applications showcasing his expertise in full-stack development and creative technology.</p>
+            </div>
             <h1 className="text-3xl mb-10 lg:md-20">Stuff I use</h1>
             <div className="mb-5">
               {!toolsLoaded ? (

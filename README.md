@@ -1,74 +1,78 @@
-# 🚀 My Portfolio Website
+# Gavin Adlan - Full-Stack Developer Portfolio
 
-Welcome to the repository for my personal portfolio website! This is where I showcase my skills, projects, and a bit of my personality through jaw-dropping 3D animations, slick interactions, and fluid motion. If you're into creative web design, you're in the right place.
+## About
 
-![Portfolio Preview](https://github.com/gavinadlan/3D--Portfolio/blob/main/public/assets/projects-screenshots/portfolio/landing.png)
+Gavin Adlan is a passionate Full-Stack Developer and Creative Technologist from Indonesia, specializing in interactive web experiences, 3D animations, and innovative web applications.
 
-## 🔥 Features
+## Skills
 
-- **3D Animations**: Custom-made interactive keyboard using Spline with skills as keycaps that reveal titles and descriptions on hover.
-- **Slick Interactions**: Powered by GSAP and Framer Motion for smooth animations on scroll, hover, and element reveal.
-- **Space Theme**: Particles on a dark background to simulate a cosmic environment, making the experience out of this world.
-- **Responsive Design**: Fully responsive across all devices to ensure the best user experience.
-- **Innovative Web Design**: Combining creativity with functionality to push the boundaries of modern web design.
+- **Frontend**: React, Next.js, TypeScript, JavaScript, HTML, CSS, Tailwind CSS
+- **Backend**: Node.js, Express.js, PHP, MySQL, PostgreSQL, MongoDB
+- **3D & Animation**: Spline, GSAP, Framer Motion
+- **Tools**: Git, GitHub, VS Code, Docker, Nginx, Vercel, AWS
+- **Mobile**: Flutter
 
-## 🛠️ Tech Stack
+## Projects
 
-- **Frontend**: Next.js, React, Tailwind CSS, Shadcn, Aceternity UI
-- **Animations**: GSAP, Framer Motion, Spline Runtime
-- **Misc**: Resend, Socketio, Zod
+### Travel Story App
+A full-stack MERN application for sharing travel experiences with authentication and image management.
 
-## 🚀 Getting Started
+### ArtsyMart
+A PHP e-commerce platform for art sales built with Bootstrap and MySQL.
 
-### Prerequisites
+### JakEstate
+A modern real estate landing page built with React, TypeScript, and Tailwind CSS.
 
-- Node.js (v14+)
-- npm or yarn
+### Todogul
+A Flutter-based to-do application with authentication and smooth UI.
 
-### Installation
+## Contact
 
-1. Clone the repository:
+- **Email**: gavinadlanhid@gmail.com
+- **LinkedIn**: [linkedin.com/in/gavinadlan](https://www.linkedin.com/in/gavinadlan/)
+- **GitHub**: [github.com/gavinadlan](https://github.com/gavinadlan)
+- **Twitter**: [@gavinadlan](https://x.com/gavinadlan)
+- **Instagram**: [@gavin_adlan](https://www.instagram.com/gavin_adlan)
 
-   ```bash
-   git clone https://github.com/gavinadlan/3D--Portfolio.git
-   ```
+## Website
 
-2. Navigate to the project directory:
+Visit my portfolio at: [gavinadlan.my.id](https://gavinadlan.my.id)
 
-   ```bash
-   cd Portfolio
-   ```
+## SEO Optimization
 
-3. Install dependencies:
+This portfolio website is optimized for search engines with:
 
-   ```bash
-   npm install
-   # or
-   yarn install
-   ```
+- Structured data (JSON-LD)
+- Meta tags and Open Graph
+- Sitemap.xml and robots.txt
+- Semantic HTML structure
+- Optimized content for "Gavin Adlan" searches
+- Location-based keywords (Indonesia)
+- Technical skill keywords
+- Project showcase content
 
-4. Run the development server:
+## Technologies Used
 
-   ```bash
-   npm run dev
-   # or
-   yarn dev
-   ```
+- **Framework**: Next.js 14
+- **Styling**: Tailwind CSS, SCSS
+- **Animations**: Framer Motion, GSAP
+- **3D**: Spline
+- **Deployment**: Vercel
+- **Analytics**: Umami
 
-5. Open [http://localhost:3000](http://localhost:3000) in your browser to see the magic!
+## Development
 
-## 🚀 Deployment
+```bash
+# Install dependencies
+npm install
 
-This site is deployed on Vercel. For your own deployment, follow these steps:
+# Run development server
+npm run dev
 
-1. Push your code to a GitHub repository.
-2. Connect your repository to Vercel.
-3. Vercel will handle the deployment process.
+# Build for production
+npm run build
+```
 
-## 🤝 Contributing
+## License
 
-If you'd like to contribute or suggest improvements, feel free to open an issue or submit a pull request. All contributions are welcome!
-
-## 📄 License
-
-This project is open source and available under the [MIT License](LICENSE).
+© 2024 Gavin Adlan. All rights reserved.

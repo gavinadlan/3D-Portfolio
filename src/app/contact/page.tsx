@@ -1,4 +1,5 @@
 import React from "react";
+import Head from "next/head";
 
 function Page() {
 
@@ -8,6 +9,23 @@ function Page() {
   }
   return (
     <section>
+      <Head>
+        <title>Contact Gavin Adlan - Full-Stack Developer</title>
+        <meta
+          name="description"
+          content="Contact Gavin Adlan for web development projects, collaborations, or inquiries. Full-Stack Developer specializing in React, Next.js, and interactive web experiences."
+        />
+        <meta
+          name="keywords"
+          content="Contact Gavin Adlan, Gavin Adlan contact, hire Gavin Adlan, web developer contact, React developer contact, Next.js developer contact"
+        />
+        <meta name="author" content="Gavin Adlan" />
+        <meta property="og:title" content="Contact Gavin Adlan - Full-Stack Developer" />
+        <meta property="og:description" content="Contact Gavin Adlan for web development projects and collaborations." />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://gavinadlan.my.id/contact" />
+        <link rel="canonical" href="https://gavinadlan.my.id/contact" />
+      </Head>
       <div className="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
         <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-center text-zinc-200">
           Contact Me
@@ -65,6 +83,14 @@ function Page() {
             Send message
           </button>
         </form>
+        
+        {/* SEO-friendly hidden content for search engines */}
+        <div className="sr-only">
+          <h2>Contact Gavin Adlan - Full-Stack Developer</h2>
+          <p>Get in touch with Gavin Adlan for web development projects, collaborations, or any inquiries about his work. Gavin is available for freelance projects, full-time positions, and technical consultations.</p>
+          <p>Contact methods: Email at gavinadlanhid@gmail.com, LinkedIn at linkedin.com/in/gavinadlan, or GitHub at github.com/gavinadlan.</p>
+          <p>Gavin Adlan specializes in React, Next.js, TypeScript, and modern web technologies. Based in Indonesia, available for remote work worldwide.</p>
+        </div>
       </div>
     </section>
   );

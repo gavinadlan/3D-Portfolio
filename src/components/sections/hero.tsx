@@ -131,6 +131,15 @@ const HeroSection = () => {
       <div className="absolute bottom-10 left-[50%] translate-x-[-50%]">
         <ScrollDownIcon />
       </div>
+      
+      {/* SEO-friendly hidden content for search engines */}
+      <div className="sr-only">
+        <h1>Gavin Adlan - Full-Stack Developer from Indonesia</h1>
+        <p>Gavin Adlan is a passionate Full-Stack Developer and Creative Technologist based in Indonesia. Specializing in interactive web experiences, 3D animations, and innovative web applications using React, Next.js, and modern technologies.</p>
+        <p>Skills include: React, Next.js, TypeScript, JavaScript, Node.js, 3D animations, GSAP, Framer Motion, Spline, and more.</p>
+        <p>Projects: Travel Story, ArtsyMart, Todogul, and other innovative web applications.</p>
+        <p>Contact Gavin Adlan for web development projects and collaborations.</p>
+      </div>
     </section>
   );
 };

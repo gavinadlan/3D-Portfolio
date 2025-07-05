@@ -1,14 +1,16 @@
 const config = {
   title: "Gavin Adlan | Full-Stack Developer",
   description: {
-    long: "Explore the portfolio of Gavin, a full-stack developer and creative technologist specializing in interactive web experiences, 3D animations, and innovative projects. Discover my latest work, including Coding Ducks, The Booking Desk, Ghostchat, and more. Let's build something amazing together!",
+    long: "Gavin Adlan - Full-Stack Developer & Creative Technologist. Specializing in interactive web experiences, 3D animations, and innovative projects. Based in Indonesia, creating cutting-edge web applications with React, Next.js, and modern technologies. View my portfolio of projects including Travel Story, ArtsyMart, Todogul, and more.",
     short:
-      "Discover the portfolio of Gavin, a full-stack developer creating interactive web experiences and innovative projects.",
+      "Gavin Adlan - Full-Stack Developer from Indonesia. Creating interactive web experiences and innovative projects with React, Next.js, and modern technologies.",
   },
   keywords: [
-    "Gavin",
-    "portfolio",
-    "full-stack developer",
+    "Gavin Adlan",
+    "Gavin Adlan portfolio",
+    "Gavin Adlan developer",
+    "Gavin Adlan Indonesia",
+    "full-stack developer Indonesia",
     "creative technologist",
     "web development",
     "3D animations",
@@ -22,6 +24,8 @@ const config = {
     "Next.js",
     "Spline",
     "Framer Motion",
+    "Indonesian developer",
+    "portfolio developer",
   ],
   author: "Gavin Adlan",
   email: "gavinadlanhid@gmail.com",

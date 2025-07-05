@@ -2,6 +2,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
+import Head from "next/head";
 // @ts-ignore
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/react-splide/css/core";
@@ -61,6 +62,23 @@ const PROJECTS = [
 function Page() {
   return (
     <>
+      <Head>
+        <title>Projects - Gavin Adlan Portfolio</title>
+        <meta
+          name="description"
+          content="Explore Gavin Adlan's projects including Travel Story, ArtsyMart, JakEstate, and Todogul. Full-stack web applications built with React, Next.js, and modern technologies."
+        />
+        <meta
+          name="keywords"
+          content="Gavin Adlan projects, Travel Story, ArtsyMart, JakEstate, Todogul, React projects, Next.js projects, Full-stack applications, Web development projects"
+        />
+        <meta name="author" content="Gavin Adlan" />
+        <meta property="og:title" content="Projects - Gavin Adlan Portfolio" />
+        <meta property="og:description" content="Explore Gavin Adlan's projects including Travel Story, ArtsyMart, JakEstate, and Todogul." />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://gavinadlan.my.id/projects" />
+        <link rel="canonical" href="https://gavinadlan.my.id/projects" />
+      </Head>
       <div className="container mx-auto md:px-[50px] xl:px-[150px] text-zinc-300 h-full">
         <h1 className="text-4xl mt-[100px] mb-[50px]">Projects</h1>
         <ul className="grid  md:grid-cols-2 lg:grid-cols-3 gap-10 place-content-around ">
@@ -107,6 +125,19 @@ function Page() {
             </li>
           ))}
         </ul>
+        
+        {/* SEO-friendly hidden content for search engines */}
+        <div className="sr-only">
+          <h2>Gavin Adlan's Web Development Projects</h2>
+          <p>Gavin Adlan has developed several innovative web applications showcasing his expertise in full-stack development:</p>
+          <ul>
+            <li><strong>Travel Story App:</strong> A full-stack MERN application for sharing travel experiences with authentication and image management.</li>
+            <li><strong>ArtsyMart:</strong> A PHP e-commerce platform for art sales built with Bootstrap and MySQL.</li>
+            <li><strong>JakEstate:</strong> A modern real estate landing page built with React, TypeScript, and Tailwind CSS.</li>
+            <li><strong>Todogul:</strong> A Flutter-based to-do application with authentication and smooth UI.</li>
+          </ul>
+          <p>These projects demonstrate Gavin Adlan's skills in React, Next.js, TypeScript, PHP, Flutter, and modern web technologies.</p>
+        </div>
       </div>
     </>
   );

@@ -14,35 +14,54 @@ import EasterEggs from "@/components/easter-eggs";
 import { config } from "@/data/config";
 import SocketContextProvider from "@/contexts/socketio";
 import RemoteCursors from "@/components/realtime/remote-cursors";
+import StructuredData from "@/components/structured-data";
 
 export const metadata: Metadata = {
   title: config.title,
   description: config.description.long,
   keywords: config.keywords,
   authors: [{ name: config.author }],
+  creator: config.author,
+  publisher: config.author,
+  alternates: {
+    canonical: config.site,
+  },
   openGraph: {
     title: config.title,
     description: config.description.short,
     url: config.site,
+    siteName: "Gavin Adlan Portfolio",
+    locale: "en_US",
+    type: "website",
     images: [
       {
         url: config.ogImg,
-        width: 800,
-        height: 600,
-        alt: "Portfolio preview",
+        width: 1200,
+        height: 630,
+        alt: "Gavin Adlan - Full-Stack Developer Portfolio",
       },
     ],
-    type: "website",
   },
   twitter: {
     card: "summary_large_image",
     title: config.title,
     description: config.description.short,
     images: [config.ogImg],
+    creator: "@gavinadlan",
   },
   robots: {
     index: true,
     follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
+  },
+  verification: {
+    google: "your-google-verification-code", // Ganti dengan kode verifikasi Google Search Console
   },
 };
 
@@ -64,6 +83,7 @@ export default function RootLayout({
           src={process.env.UMAMI_DOMAIN}
           data-website-id={process.env.UMAMI_SITE_ID}
         ></Script>
+        <StructuredData />
         {/* <Analytics /> */}
       </head>
       <body>
