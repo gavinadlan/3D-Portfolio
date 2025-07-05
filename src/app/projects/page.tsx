@@ -128,7 +128,7 @@ function Page() {
         
         {/* SEO-friendly hidden content for search engines */}
         <div className="sr-only">
-          <h2>Gavin Adlan's Web Development Projects</h2>
+          <h2>Gavin Adlan&apos;s Web Development Projects</h2>
           <p>Gavin Adlan has developed several innovative web applications showcasing his expertise in full-stack development:</p>
           <ul>
             <li><strong>Travel Story App:</strong> A full-stack MERN application for sharing travel experiences with authentication and image management.</li>
@@ -136,7 +136,7 @@ function Page() {
             <li><strong>JakEstate:</strong> A modern real estate landing page built with React, TypeScript, and Tailwind CSS.</li>
             <li><strong>Todogul:</strong> A Flutter-based to-do application with authentication and smooth UI.</li>
           </ul>
-          <p>These projects demonstrate Gavin Adlan's skills in React, Next.js, TypeScript, PHP, Flutter, and modern web technologies.</p>
+          <p>These projects demonstrate Gavin Adlan&apos;s skills in React, Next.js, TypeScript, PHP, Flutter, and modern web technologies.</p>
         </div>
       </div>
     </>

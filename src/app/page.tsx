@@ -45,14 +45,14 @@ function MainPage() {
           {/* SEO-friendly hidden content for search engines */}
           <div className="sr-only">
             <section>
-              <h2>Gavin Adlan - Full-Stack Developer Portfolio</h2>
-              <p>Welcome to Gavin Adlan's portfolio website. Gavin is a passionate Full-Stack Developer and Creative Technologist based in Indonesia, specializing in creating interactive web experiences and innovative applications.</p>
+              <h2>Gavin Adlan&apos;s Full-Stack Developer Portfolio</h2>
+              <p>Welcome to Gavin Adlan&apos;s portfolio website. Gavin is a passionate Full-Stack Developer and Creative Technologist based in Indonesia, specializing in creating interactive web experiences and innovative applications.</p>
               
               <h3>Skills & Technologies</h3>
               <p>Gavin Adlan has expertise in React, Next.js, TypeScript, JavaScript, Node.js, 3D animations, GSAP, Framer Motion, Spline, and modern web technologies. He creates cutting-edge web applications that combine beautiful design with powerful functionality.</p>
               
               <h3>Projects</h3>
-              <p>Gavin Adlan's portfolio includes projects like Travel Story (MERN stack app), ArtsyMart (PHP e-commerce), JakEstate (React real estate), and Todogul (Flutter to-do app). These projects showcase his versatility and technical skills.</p>
+              <p>Gavin Adlan&apos;s portfolio includes projects like Travel Story (MERN stack app), ArtsyMart (PHP e-commerce), JakEstate (React real estate), and Todogul (Flutter to-do app). These projects showcase his versatility and technical skills.</p>
               
               <h3>Contact Information</h3>
               <p>Contact Gavin Adlan for web development projects, collaborations, or inquiries. Email: gavinadlanhid@gmail.com | LinkedIn: linkedin.com/in/gavinadlan | GitHub: github.com/gavinadlan</p>

@@ -313,7 +313,7 @@ function Page() {
             </p>
             <p className="mb-10">
               When I&apos;m not coding, you can find me exploring new technologies, experimenting with 3D animations, or sipping coffee
-              while brainstorming my next project. I'm passionate about creating innovative web experiences that combine cutting-edge technology with beautiful design.
+              while brainstorming my next project. I&apos;m passionate about creating innovative web experiences that combine cutting-edge technology with beautiful design.
             </p>
             
             {/* SEO-friendly hidden content for search engines */}
@@ -321,7 +321,7 @@ function Page() {
               <h2>Gavin Adlan - Full-Stack Developer Skills</h2>
               <p>Gavin Adlan is a skilled Full-Stack Developer with expertise in React, Next.js, TypeScript, JavaScript, Node.js, and modern web technologies. Based in Indonesia, Gavin specializes in creating interactive web experiences and 3D animations.</p>
               <p>Technical skills include: JavaScript, TypeScript, HTML, CSS, Node.js, React.js, Docker, Nginx, Vue.js, Express.js, PostgreSQL, MongoDB, Tailwind CSS, Firebase, Git, GitHub, VS Code, VIM, Prettier, NPM, Yarn, Vercel, Linux, Kubuntu, Terminal, and AWS.</p>
-              <p>Gavin Adlan's projects include Travel Story, ArtsyMart, Todogul, and other innovative web applications showcasing his expertise in full-stack development and creative technology.</p>
+              <p>Gavin Adlan&apos;s projects include Travel Story, ArtsyMart, Todogul, and other innovative web applications showcasing his expertise in full-stack development and creative technology.</p>
             </div>
             <h1 className="text-3xl mb-10 lg:md-20">Stuff I use</h1>
             <div className="mb-5">

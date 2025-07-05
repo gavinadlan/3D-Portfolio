@@ -26,8 +26,8 @@ function Page() {
         
         {/* SEO-friendly hidden content for search engines */}
         <div className="sr-only">
-          <h2>Gavin Adlan's Web Development Blog</h2>
-          <p>Welcome to Gavin Adlan's blog about web development, React, Next.js, and modern web technologies. This blog will feature tutorials, insights, and best practices for full-stack development.</p>
+          <h2>Gavin Adlan&apos;s Web Development Blog</h2>
+          <p>Welcome to Gavin Adlan&apos;s blog about web development, React, Next.js, and modern web technologies. This blog will feature tutorials, insights, and best practices for full-stack development.</p>
           <p>Gavin Adlan is a Full-Stack Developer from Indonesia who specializes in creating interactive web experiences and innovative applications.</p>
         </div>
       </div>
