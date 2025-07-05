@@ -62,12 +62,12 @@ This portfolio website is optimized for search engines with:
 
 ## Development
 
-```bash
+   ```bash
 # Install dependencies
-npm install
+   npm install
 
 # Run development server
-npm run dev
+   npm run dev
 
 # Build for production
 npm run build
